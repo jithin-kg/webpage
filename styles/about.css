@@ -1,0 +1,61 @@
+.img-rounded{
+    margin: 0;
+    max-width: 100%;
+    /* width: 88%; */
+    /* height: 25vh; */
+    height: auto
+}
+
+.card-text{
+    font-size: initial;
+    color: #fff !important;
+    font-weight: 300;
+    line-height: 3.5rem;
+    padding: 43px;
+}
+
+#aboutHead {
+    margin-top: 16vh;
+    padding-bottom: 10vh;
+    color: #5a889e;
+    font-family: sans;
+}
+
+body{
+    margin:0px;
+}
+
+
+/* slanded background */
+
+
+.container-fluid{
+    padding-right: 0px;
+   padding-left: 0px;
+   margin-right: 0px;
+   margin-left: 0;
+}
+
+
+
+   
+   .slandedDivA {
+   position: relative;
+   width: 100%;
+   height: 400px;
+   background:white;
+   z-index: -2;
+}
+.slandedDivA:after{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   content: '';
+   background: rgb(227, 244, 248);
+   z-index: -1;
+   top: 0;
+   bottom:0;
+   right: 0;
+   transform-origin: top right;
+   transform: skewY(-14deg);
+}
